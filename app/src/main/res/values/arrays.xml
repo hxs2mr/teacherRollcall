@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>已到</item>
+        <item>未到</item>
+    </string-array>
+</resources>

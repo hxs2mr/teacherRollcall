@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                                
+
+    
+                                                                             
+                 
+                            
+                                                                 
+           
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff" android:tag="layout/activity_release_0" xmlns:binding="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_5298fc">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_back"
+                android:tag="binding_1"                                   />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/title_release_notice"
+                android:textColor="@color/color_ffffff"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:tag="binding_2"                                   />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notice_title"
+                android:textSize="12sp"
+                android:textColor="@color/color_333333"
+                android:layout_centerVertical="true"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:textSize="12sp"
+                android:tag="binding_3"           
+                android:hint="请输入标题"
+                android:textColor="@color/color_333333"/>
+
+            <ImageView
+                android:layout_marginLeft="60dp"
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_upload"
+                android:textSize="12sp"
+                android:textColor="@color/color_333333"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_4"              
+                android:textSize="12sp"
+                android:textColor="@color/color_808080"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:tag="binding_5"                          
+                                                          
+                                                  
+            />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@mipmap/icon_add_photo"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:tag="binding_6"                                   
+            />
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/color_e5e5e5"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/content_description"
+            android:textSize="12sp"
+            android:textColor="@color/color_333333"
+            android:layout_centerVertical="true"/>
+
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/icon_content_et_bg"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:hint="请输入通知内容"
+            android:tag="binding_7"             
+            android:gravity="start|top"
+            android:textColor="@color/color_333333"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_certain_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/color_ffffff"
+                android:textSize="12sp"
+                android:tag="binding_8"                                   
+                android:text="@string/certain"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_cancle_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/color_ffffff"
+                android:textSize="12sp"
+                android:text="@string/cancle"
+                android:layout_alignParentRight="true"
+                android:tag="binding_9"                                   />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+         

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    
+                 
+                            
+                                                                  
+           
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:binding="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_ffffff" android:tag="layout/activity_loss_detail_0">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_5298fc">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_back"
+                android:tag="binding_1"                                   />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/title_scan_detail"
+                android:textColor="@color/color_ffffff"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:tag="binding_2"                                   />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/color_f4f4f4">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                binding:placeholderRes="@mipmap/icon_default_user"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:textColor="@color/color_333333"
+                android:textSize="14sp"
+                android:tag="binding_3"                    />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_room"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_4"                                         />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_items"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_5"                       />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_model"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_6"                />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_state"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_7"                                                     />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_detail"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_8"                      />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_date"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_9"                       />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:text="@string/loss_deal_date"/>
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="64dp"
+                android:tag="binding_10"                    />
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+         

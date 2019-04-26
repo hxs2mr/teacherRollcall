@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">宿舍管理系统</string>
+    <string name="login_account">账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_login">登录</string>
+    <string name="company_name">贵州冠宇科技有限公司</string>
+    <string name="voice">语音通话</string>
+    <string name="title_main">通知通告</string>
+    <string name="release_notice">+发布通知</string>
+    <string name="title_release_notice">发布通知</string>
+    <string name="notice_title">通知标题</string>
+    <string name="picture_upload" translatable="false">图片上传</string>
+    <string name="content_description" translatable="false">内容说明</string>
+    <string name="certain" translatable="false">确定</string>
+    <string name="cancle" translatable="false">取消</string>
+    <string name="titie_notice">通知通告</string>
+    <string name="titie_call" translatable="false">人员点名</string>
+    <string name="titie_borrow" translatable="false">物品借用</string>
+    <string name="titie_loss">物品报损</string>
+    <string name="titie_door">门禁考勤</string>
+    <string name="titie_analyse">点名统计分析</string>
+    <string name="titie_setting">设置</string>
+    <string name="modify_data">资料修改</string>
+    <string name="modify_password">密码修改</string>
+    <string name="logout">退出登录</string>
+    <string name="release_call">+发起点名</string>
+    <string name="call_rule_list">点名规则列表</string>
+    <string name="call_people">发起人：</string>
+    <string name="call_type">点名类型：</string>
+    <string name="call_date">点名时间：</string>
+    <string name="call_single">单次点名</string>
+    <string name="call_point">定点点名</string>
+    <string name="title_release_call">发起点名</string>
+    <string name="start_date">点名日期</string>
+    <string name="arrive">至</string>
+    <string name="start_time">点名时间</string>
+    <string name="call_range">选择点名宿舍</string>
+    <string name="total_select">全选</string>
+    <string name="call_week">星期选择</string>
+    <string name="loss_people">报损人：</string>
+    <string name="items">物品：</string>
+    <string name="articname1">(</string>
+    <string name="articname2">)</string>
+    <string name="article">/</string>
+    <string name="date">时间：</string>
+    <string name="code">学号：</string>
+    <string name="deal">已处理</string>
+    <string name="no_deal">未处理</string>
+    <string name="title_scan_detail">查看详情</string>
+    <string name="loss_room">报损宿舍：</string>
+    <string name="loss_items">报损物品：</string>
+    <string name="loss_model">报损型号：</string>
+    <string name="loss_state">报损状态：</string>
+    <string name="loss_detail">报损说明：</string>
+    <string name="loss_date">报损时间：</string>
+    <string name="loss_deal_date">处理时间：</string>
+    <string name="title_notice_detail">通知详情</string>
+    <string name="please_input_name_or_number">请输入姓名或学号</string>
+    <string name="search">查询</string>
+    <string name="borrow_register">借用登记</string>
+    <string name="already_return">已归还</string>
+    <string name="no_return">未归还</string>
+    <string name="reduce">-</string>
+    <string name="dormitory">宿</string>
+
+    <string name="xie">/</string>
+    <string name="item_return">归还</string>
+    <string name="modify">修改</string>
+    <string name="delete">删除</string>
+    <string name="state">状态</string>
+    <string name="already_sign">已到</string>
+    <string name="no_sign">未到</string>
+    <string name="analyse_end">已结束</string>
+    <string name="analyse_start">进行中</string>
+    <string name="delete_search_data">清除查询数据</string>
+    <string name="personal_sign_state">个人签到情况Top10</string>
+    <string name="history_sign_total_list">历史签到人数统计表</string>
+    <string name="already_arrive">已到</string>
+    <string name="no_arrive">未到</string>
+    <string name="police">宿舍使用一键报警，向你请求帮助，情况紧急，请尽快处理!</string>
+    <string name="police_time">发送时间:</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gykj.rollcall.model.DormitoryBean"/>
+    </data>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="70dp"
+        android:layout_height="32dp">
+        <CheckBox
+            android:id="@+id/room_check"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/color_515151"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+             />
+
+    </RelativeLayout>
+
+</layout>

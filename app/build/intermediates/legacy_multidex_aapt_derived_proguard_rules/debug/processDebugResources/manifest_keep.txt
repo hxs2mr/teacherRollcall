@@ -1,0 +1,2 @@
+# Referenced at D:\newwork\RollCall\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30
+-keep class com.gykj.rollcall.app.RollCallApplication { <init>(...); }

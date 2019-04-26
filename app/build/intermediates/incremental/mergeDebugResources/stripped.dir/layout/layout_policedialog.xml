@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/borrow_dialog_shape"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/icon_police_no"
+        />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="学生报警"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_gravity="center|left"
+                    />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b0b0b0"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="10dp"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_ok"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_select"
+        android:textColor="#ffffff"
+        android:text="立即处理"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        />
+</android.support.v7.widget.LinearLayoutCompat>

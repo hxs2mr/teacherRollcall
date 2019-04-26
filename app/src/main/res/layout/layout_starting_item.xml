@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gykj.rollcall.entity.StartRecordBean.DormitoryListBean"/>
+    </data>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/que_tv"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="@drawable/start_record_yes_shape"
+        android:text="缺"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/que_tv"
+        >
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textColor="#5298fc"
+        android:maxLines="1"
+        />
+     <TextView
+         android:id="@+id/tv_drname"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:textColor="#5298fc"
+         android:maxLines="1"
+         />
+    </LinearLayout>
+</RelativeLayout>
+</layout>

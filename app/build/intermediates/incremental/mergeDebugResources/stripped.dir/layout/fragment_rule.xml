@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+
+    
+
+                 
+                            
+                                                                     
+
+           
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" android:tag="layout/fragment_rule_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginLeft="44dp"
+            android:tag="binding_1"                          
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/fanwei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点名日期范围"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:gravity="end"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_toRightOf="@id/fanwei"
+                android:id="@+id/tv_date"
+                android:layout_width="170dp"
+                android:paddingLeft="10dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:hint="请选择"
+                android:tag="binding_2"           
+                android:textColor="@color/color_808080"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_date"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_right"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginLeft="44dp"
+            android:tag="binding_3"                          
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/fanwei_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点名时间范围"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:gravity="end"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_toRightOf="@+id/fanwei_time"
+                android:id="@+id/tv_time"
+                android:layout_width="170dp"
+                android:paddingLeft="10dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:hint="请选择"
+                android:tag="binding_4"           
+                android:textColor="@color/color_808080"
+                android:layout_centerVertical="true" />
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_time"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_right"
+                />
+        </RelativeLayout>
+
+
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:layout_height="10dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/call_week"
+                android:textSize="12sp"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:paddingRight="10dp"/>
+
+            <CheckBox
+                android:id="@+id/checkall_week"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_toLeftOf="@+id/rule_week_total_tv"
+                android:layout_marginRight="6dp"
+                android:checked="true"
+                android:tag="binding_5"                                                  />
+
+
+            <TextView
+                android:id="@+id/rule_week_total_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/total_select"/>
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            binding:layoutManager="android.support.v7.widget.GridLayoutManager"
+            binding:spanCount="7"
+            android:tag="binding_6"                   
+          />
+
+
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:layout_height="10dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call_range"
+                android:textSize="12sp"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:paddingRight="10dp"/>
+
+            <CheckBox
+                android:id="@+id/checkall_room"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_toLeftOf="@+id/rule_total_tv"
+                android:layout_marginRight="6dp"
+                android:checked="true"
+                android:tag="binding_7"                                              />
+
+            <TextView
+                android:id="@+id/rule_total_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/color_515151"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/total_select"/>
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            binding:layoutManager="android.support.v7.widget.GridLayoutManager"
+            binding:spanCount="6"
+            android:tag="binding_8"               
+       />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_certain_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/color_ffffff"
+                android:textSize="12sp"
+                android:tag="binding_9"                             
+                android:text="@string/certain"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_cancle_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/color_ffffff"
+                android:textSize="12sp"
+                android:text="@string/cancle"
+                android:layout_alignParentRight="true"
+                android:tag="binding_10"                                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+         

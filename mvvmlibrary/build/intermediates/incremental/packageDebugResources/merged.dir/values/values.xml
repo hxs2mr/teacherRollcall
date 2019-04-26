@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="adapter"/>
+    <attr format="reference" name="currentView"/>
+    <attr format="boolean" name="isThrottleFirst"/>
+    <attr format="reference" name="itemView"/>
+    <attr format="reference" name="items"/>
+    <attr format="reference" name="onClickCommand"/>
+    <attr format="reference" name="onFocusChangeCommand"/>
+    <attr format="reference" name="onLongClickCommand"/>
+    <attr format="reference" name="onScrollChangeCommand"/>
+    <attr format="reference" name="onScrollStateChangedCommand"/>
+    <attr format="reference" name="onTouchCommand"/>
+    <attr format="boolean" name="requestFocus"/>
+    <attr format="string" name="url"/>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AdapterView">
+        <!-- require ItemView {@link me.tatarka.bindingcollectionadapter.ItemView} or ItemViewSelector {{@link me.tatarka.bindingcollectionadapter.ItemViewSelector}.} -->
+        <attr name="itemView"/>
+        <!-- require List<ViewModel> bind to ItemView to presentation.-->
+        <attr name="items"/>
+        <!-- require a adapter which type of BindingRecyclerViewAdapter<T> to AdapterView-->
+        <attr name="adapter"/>
+        <attr format="reference" name="dropDownItemView"/>
+        <attr format="reference" name="itemIds"/>
+        <attr format="reference" name="itemIsEnabled"/>
+        <!-- require BindingCommand<Integer> -->
+        <attr name="onScrollStateChangedCommand"/>
+        <!-- require BindingCommand<ListViewScrollDataWrapper> -->
+        <attr name="onScrollChangeCommand"/>
+        <!-- require BindingCommand<Integer> count of list items-->
+        <attr format="reference" name="onLoadMoreCommand"/>
+    </declare-styleable>
+    <declare-styleable name="AutoLayout_Layout">
+
+        <attr name="layout_auto_basewidth">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+        </attr>
+
+        <attr name="layout_auto_baseheight">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+            <flag name="minWidth" value="8192"/>
+            <flag name="maxWidth" value="16384"/>
+            <flag name="minHeight" value="32768"/>
+            <flag name="maxHeight" value="65536"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="ControlDistributeLinearLayout">
+        <attr format="boolean" name="distribute_event"/>
+    </declare-styleable>
+    <declare-styleable name="ImageView">
+        <!--  load bitmap from uri(string type) -->
+        <attr name="url"/>
+        <!--width for ResizeOptions (use Fresco to load bitmap). -->
+        <attr format="integer" name="request_width"/>
+        <!--height for ResizeOptions (use Fresco to load bitmap). -->
+        <attr format="integer" name="request_height"/>
+        <attr format="reference|color" name="placeholderRes"/>
+        <!--  require BindingCommand<Bitmap> See {@link @link com.kelin.mvvmlight.command.BindingCommand} -->
+        <attr format="reference" name="onSuccessCommand"/>
+        <!--require BindingCommand<CloseableReference<CloseableImage>> See {@link com.kelin.mvvmlight.command.BindingCommand} -->
+        <attr format="reference" name="onFailureCommand"/>
+
+    </declare-styleable>
+    <declare-styleable name="ListView" parent="AdapterView">
+        <!--require BindingCommand<Integer> integer mean to position where is clicked! -->
+        <attr format="reference" name="onItemClickCommand"/>
+    </declare-styleable>
+    <declare-styleable name="MetroLayout">
+        <attr format="dimension" name="metro_divider"/>
+    </declare-styleable>
+    <declare-styleable name="NestedScrollView">
+        <!-- require BindingCommand<NestScrollDataWrapper> -->
+        <attr name="onScrollChangeCommand"/>
+    </declare-styleable>
+    <declare-styleable name="RadioGroup">
+        <attr format="reference" name="onCheckedChangedCommand"/>
+    </declare-styleable>
+    <declare-styleable name="RecyclerView" parent="AdapterView">
+        <attr format="reference" name="lineManager"/>
+    </declare-styleable>
+    <declare-styleable name="ScrollView">
+        <!-- require BindingCommand<ScrollDataWrapper> -->
+        <attr name="onScrollChangeCommand"/>
+    </declare-styleable>
+    <declare-styleable name="SimpleDraweeView">
+        <!-- require String to load Image"-->
+        <attr name="url"/>
+    </declare-styleable>
+    <declare-styleable name="Spinner">
+        <attr format="reference" name="itemDatas"/>
+        <attr format="string" name="valueReply"/>
+        <attr format="reference" name="onItemSelectedCommand"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeRefreshLayout">
+        <!-- require RelayCommand -->
+        <attr format="reference" name="onRefreshCommand"/>
+    </declare-styleable>
+    <declare-styleable name="Switch">
+        <attr format="reference" name="onCheckedChangeCommand"/>
+        <attr format="boolean" name="switchState"/>
+    </declare-styleable>
+    <declare-styleable name="TextView">
+        <!--require BindingCommand<TextChangeDataWrapper> -->
+        <attr format="reference" name="beforeTextChangedCommand"/>
+        <!--require BindingCommand<TextChangeDataWrapper> -->
+        <attr format="reference" name="onTextChangedCommand"/>
+        <!--require BindingCommand<String> -->
+        <attr format="reference" name="afterTextChangedCommand"/>
+        <attr format="reference" name="textChanged"/>
+    </declare-styleable>
+    <declare-styleable name="View">
+        <!-- require BindingCommand {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view click event. -->
+        <attr name="onClickCommand"/>
+        <attr name="onLongClickCommand"/>
+        <!-- require BindingCommand<Boolean> {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view focus change event.
+         BindingCommand would has params which means if view hasFocus.-->
+        <attr name="onFocusChangeCommand"/>
+        <!-- require BindingCommand<MotionEvent> -->
+        <attr name="onTouchCommand"/>
+        <attr name="isThrottleFirst"/>
+        <attr name="currentView"/>
+
+    </declare-styleable>
+    <declare-styleable name="ViewGroup">
+        <!-- require ItemView {@link me.tatarka.bindingcollectionadapter.ItemView} or ItemViewSelector {{@link me.tatarka.bindingcollectionadapter.ItemViewSelector}.} -->
+        <attr name="itemView"/>
+        <!-- require List<ViewModel> bind to ItemView to presentation.-->
+        <attr format="reference" name="observableList"/>
+
+    </declare-styleable>
+    <declare-styleable name="ViewPager">
+        <!-- require ItemView {@link me.tatarka.bindingcollectionadapter.ItemView} or ItemViewSelector {{@link me.tatarka.bindingcollectionadapter.ItemViewSelector}.} -->
+        <attr name="itemView"/>
+        <!-- require List<ViewModel> bind to ItemView to presentation.-->
+        <attr name="items"/>
+        <!-- require a adapter which type of BindingRecyclerViewAdapter<T> to AdapterView-->
+        <attr name="adapter"/>
+        <!-- require PageTitles<T>-->
+        <attr format="reference" name="pageTitles"/>
+        <!--require BindingCommand<ViewPagerDataWrapper> -->
+        <attr format="reference" name="onPageScrolledCommand"/>
+        <!--require BindingCommand<Integer> -->
+        <attr format="reference" name="onPageSelectedCommand"/>
+        <!--require BindingCommand<Integer> -->
+        <attr format="reference" name="onPageScrollStateChangedCommand"/>
+
+    </declare-styleable>
+    <declare-styleable name="WebView">
+        <!-- require String render to html show in webview-->
+        <attr format="string" name="render"/>
+    </declare-styleable>
+    <item name="id_tag_autolayout_margin" type="id"/>
+    <item name="id_tag_autolayout_padding" type="id"/>
+    <item name="id_tag_autolayout_size" type="id"/>
+    <string name="app_name">mvvmlibrary</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+    
+
+                 
+                                                          
+                            
+              
+
+           
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:binding="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" android:tag="layout/fragment_door_0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/color_efefef">
+
+            <RelativeLayout
+                android:layout_toLeftOf="@+id/borrow_search_layout"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/icon_search_et_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp">
+
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@mipmap/icon_search_normal"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <EditText
+                    android:id="@+id/door_edit_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="36dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_name_or_number"
+                    android:textSize="12sp"
+                    android:textColor="@color/color_333333"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/borrow_search_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp">
+
+
+                <TextView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/icon_search_et_bg"
+                    android:gravity="center"
+                    android:textColor="@color/color_5298fc"
+                    android:text="@string/search"/>
+
+                <TextView
+                    android:id="@+id/door_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="66dp"
+                    android:text="@string/state"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"/>
+
+
+                <RelativeLayout
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/door_state"
+                    android:layout_width="83dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    >
+                    <Spinner
+                        android:id="@+id/door_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:spinnerMode="dropdown"
+                        android:entries="@array/languages"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            binding:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            android:tag="binding_1"               
+        />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+         

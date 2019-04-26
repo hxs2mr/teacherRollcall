@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                 
+                            
+                                                                              
+           
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+         android:tag="layout/layout_record_item_0" xmlns:binding="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+            android:id="@+id/record_item_starttime"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="#6e6e6e"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:tag="binding_1"                    
+            />
+        <TextView
+            android:layout_below="@+id/record_item_starttime"
+            android:id="@+id/record_item_recordtime"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="#6e6e6e"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:tag="binding_2"                     
+            />
+        <TextView
+            android:id="@+id/record_item_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:tag="binding_3"                                                            
+                                                                                                                 
+            android:text="已到"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+         

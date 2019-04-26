@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/aecb2e68ff75c48393f7f79045d2c6fb/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/aecb2e68ff75c48393f7f79045d2c6fb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/aecb2e68ff75c48393f7f79045d2c6fb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.tatarka.bindingcollectionadapter2/bindingcollectionadapter-recyclerview/2.2.0/bca99cd7775ac50026a246cf1c7715e3491e65e7/bindingcollectionadapter-recyclerview-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+
+    
+
+                 
+                            
+                                                                  
+
+           
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" android:tag="layout/fragment_setting_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:tag="binding_1"                                 >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/modify_data"
+                android:layout_marginLeft="12dp"
+                android:textColor="@color/color_515151"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/icon_next_arrow"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"/>
+
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:tag="binding_2"                                     >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/modify_password"
+                android:layout_marginLeft="12dp"
+                android:textColor="@color/color_515151"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/icon_next_arrow"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"/>
+
+
+            <ImageView
+                style="@style/lay_divide_line_e5e5e5_horizontal"
+                android:layout_alignParentBottom="true"/>
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="@string/logout"
+            android:background="@drawable/icon_release_btn_bg"
+            android:textColor="@color/color_ffffff"
+            android:tag="binding_3"                                   />
+
+
+
+    </LinearLayout>
+
+         

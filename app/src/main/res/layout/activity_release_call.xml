@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.gykj.rollcall.ui.call.ReleaseCallViewModel"/>
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:binding="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_5298fc">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_back"
+                binding:onClickCommand="@{viewModel.cancleOnClickCommand}"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/title_release_call"
+                android:textColor="@color/color_ffffff"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                binding:onClickCommand="@{viewModel.cancleOnClickCommand}"/>
+
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/call_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/color_2ee0c5"
+            app:tabSelectedTextColor="@color/color_ffffff"
+            app:tabTextColor="@color/color_808080"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            android:background="@color/color_2d3a48"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/call_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</layout>
+

@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_item_startcall.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_item_startcall.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_start.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_start.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_page_single.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_page_single.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_rule.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_rule.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_analyse.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_analyse.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_rule_room_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_rule_room_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_record_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_record_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_starting_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_starting_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_borrow_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_borrow_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_police.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_police.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_call.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_call.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_converse.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_converse.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recode.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_recode.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_loss_detail.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_loss_detail.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_borrow.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_borrow.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notice_detail.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_notice_detail.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_door_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_door_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_door.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_door.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_end.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_end.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_startend_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_startend_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_release.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_release.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_loss.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_loss.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_image.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_image.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notice.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_notice.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_call_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_call_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_notice_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_notice_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_loss_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_loss_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_release_call.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_release_call.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_rule_week_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_rule_week_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_police_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_police_item.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_single.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\fragment_single.xml"
+    },
+    {
+        "merged": "D:\\newwork\\RollCall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_single_room_item.xml",
+        "source": "D:\\newwork\\RollCall\\app\\src\\main\\res\\layout\\layout_single_room_item.xml"
+    }
+]

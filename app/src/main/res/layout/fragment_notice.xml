@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gykj.rollcall.ui.notice.NoticeViewModel"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="@string/release_notice"
+            android:background="@drawable/icon_release_btn_bg"
+            android:textColor="@color/color_ffffff"
+            binding:onClickCommand="@{viewModel.releaseOnClickCommand}"/>
+
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:contentDescription="@null"
+            android:layout_marginTop="20dp"/>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                binding:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                binding:adapter="@{viewModel.adapter}"
+                />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+</layout>

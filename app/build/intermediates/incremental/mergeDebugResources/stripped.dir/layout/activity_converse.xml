@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    
+                 
+                            
+                                                                   
+           
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:binding="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.setting.ConverseActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" android:tag="layout/activity_converse_0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_ffffff"
+            android:textSize="16sp"
+            android:text="通话101室"
+            android:layout_marginTop="60dp"/>
+
+
+        <com.gykj.rollcall.widget.ObjectRippleView
+            android:layout_marginTop="40dp"
+            android:id="@+id/converse_ripple_view"
+            android:layout_width="260dp"
+            android:layout_height="260dp" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_time_frame"
+            android:text="00:38"
+            android:gravity="center"
+            android:textColor="@color/color_ffffff"
+            android:textSize="16sp"/>
+
+
+        <RelativeLayout
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:src="@mipmap/icon_silent_normal"
+                android:scaleType="fitXY"/>
+
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/icon_hang_up"
+                android:scaleType="fitXY"
+                android:tag="binding_1"                                   />
+
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_hands_free_normal"
+                android:scaleType="fitXY"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+         

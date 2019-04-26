@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gykj.rollcall.model.RollPageBean.RecordsBean"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/color_ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/call_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_333333"
+                android:textSize="11sp"
+                android:text="@{@string/call_people + viewModel.gmtCreate}"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:layout_below="@+id/call_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_6e6e6e"
+                android:textSize="11sp"
+                android:text="@{viewModel.rollType == 0? @string/call_type + @string/call_single:@string/call_type + @string/call_point}"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="12dp"/>
+
+
+            <Switch
+                android:id="@+id/call_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:thumb="@drawable/icon_switch_ios_thumb"
+                android:track="@drawable/icon_switch_custom_thumb"
+           />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_808080"
+                android:textSize="11sp"
+                android:text="@{@string/call_date + viewModel.startTime+@string/reduce+viewModel.endTime}"
+                android:layout_marginLeft="12dp"
+                android:layout_centerVertical="true"/>
+
+
+            <ImageView
+                android:id="@+id/ev_edit"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@mipmap/icon_modify"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+               />
+
+
+            <ImageView
+                android:id="@+id/tv_delete"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/icon_delete"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+               />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+
+</layout>

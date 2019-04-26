@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+
+    
+                 
+                            
+                                                                
+           
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_ffffff" android:tag="layout/layout_door_item_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="12dp"
+                android:src="@mipmap/icon_default_user"
+                android:tag="binding_1"                 
+                binding:placeholderRes="@mipmap/icon_default_user" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_5298fc"
+                android:textSize="14sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="14dp"
+                android:tag="binding_2"                                                         />
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:layout_marginLeft="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:tag="binding_3"                  />
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:tag="binding_4"                                                            />
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:tag="binding_5"                               
+                android:layout_marginLeft="55dp"
+                android:layout_centerVertical="false"
+                android:layout_marginTop="6dp"/>
+
+
+            <TextView
+                style="@style/lay_loss_text_style"
+                android:tag="binding_6"                               
+                android:layout_marginLeft="55dp"
+                android:layout_centerVertical="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:tag="binding_7"                                                                  
+                                                                                                                             
+                                                                                                   />
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/lay_divide_line_e5e5e5_horizontal"
+            android:layout_height="5dp"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+
+         
